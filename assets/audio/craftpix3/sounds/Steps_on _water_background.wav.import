@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cnpndtxjyl4ts"
+path="res://.godot/imported/Steps_on _water_background.wav-2e80a0b518c061d60566e2b8dde15759.sample"
+
+[deps]
+
+source_file="res://assets/audio/craftpix3/sounds/Steps_on _water_background.wav"
+dest_files=["res://.godot/imported/Steps_on _water_background.wav-2e80a0b518c061d60566e2b8dde15759.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

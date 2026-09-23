@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dj8v41s4imqes"
+path="res://.godot/imported/War Drums.mp3-b89085f861232bde3be6a4f90f233283.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/menu/music/War Drums.mp3"
+dest_files=["res://.godot/imported/War Drums.mp3-b89085f861232bde3be6a4f90f233283.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

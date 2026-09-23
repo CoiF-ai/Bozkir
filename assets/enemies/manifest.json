@@ -1,0 +1,408 @@
+{
+  "zombie": {
+    "file": "zombie/001_walking.png",
+    "cell": [
+      32,
+      32
+    ],
+    "states": {
+      "idle": [
+        0,
+        4
+      ],
+      "run": [
+        0,
+        4
+      ]
+    },
+    "extra": {
+      "attack": [
+        "zombie/001_attack.png",
+        32,
+        32,
+        0,
+        8
+      ],
+      "death": [
+        "zombie/001_death.png",
+        32,
+        32,
+        0,
+        8
+      ]
+    }
+  },
+  "monster": {
+    "file": "monster/monster001eyes.png",
+    "cell": [
+      48,
+      48
+    ],
+    "states": {
+      "idle": [
+        0,
+        8
+      ],
+      "run": [
+        8,
+        8
+      ],
+      "attack": [
+        24,
+        8
+      ],
+      "death": [
+        48,
+        8
+      ]
+    }
+  },
+  "white": {
+    "file": "wolves/White_Werewolf/Idle.png",
+    "cell": [
+      128,
+      128
+    ],
+    "states": {
+      "idle": [
+        0,
+        8
+      ]
+    },
+    "extra": {
+      "run": [
+        "wolves/White_Werewolf/Run.png",
+        128,
+        128,
+        0,
+        9
+      ],
+      "attack": [
+        "wolves/White_Werewolf/Attack_1.png",
+        128,
+        128,
+        0,
+        6
+      ],
+      "death": [
+        "wolves/White_Werewolf/Dead.png",
+        128,
+        128,
+        0,
+        2
+      ]
+    }
+  },
+  "red": {
+    "file": "wolves/Red_Werewolf/Idle.png",
+    "cell": [
+      128,
+      128
+    ],
+    "states": {
+      "idle": [
+        0,
+        8
+      ]
+    },
+    "extra": {
+      "run": [
+        "wolves/Red_Werewolf/Run.png",
+        128,
+        128,
+        0,
+        9
+      ],
+      "attack": [
+        "wolves/Red_Werewolf/Attack_1.png",
+        128,
+        128,
+        0,
+        6
+      ],
+      "death": [
+        "wolves/Red_Werewolf/Dead.png",
+        128,
+        128,
+        0,
+        2
+      ]
+    }
+  },
+  "black": {
+    "file": "wolves/Black_Werewolf/Idle.png",
+    "cell": [
+      128,
+      128
+    ],
+    "states": {
+      "idle": [
+        0,
+        8
+      ]
+    },
+    "extra": {
+      "run": [
+        "wolves/Black_Werewolf/Run.png",
+        128,
+        128,
+        0,
+        9
+      ],
+      "attack": [
+        "wolves/Black_Werewolf/Attack_1.png",
+        128,
+        128,
+        0,
+        6
+      ],
+      "death": [
+        "wolves/Black_Werewolf/Dead.png",
+        128,
+        128,
+        0,
+        2
+      ]
+    }
+  },
+  "demon": {
+    "file": "tiny/Demon_A/Demon_A_Idle.png",
+    "cell": [
+      100,
+      100
+    ],
+    "states": {
+      "idle": [
+        0,
+        6
+      ]
+    },
+    "extra": {
+      "run": [
+        "tiny/Demon_A/Demon_A_Walk.png",
+        100,
+        100,
+        0,
+        8
+      ],
+      "attack": [
+        "tiny/Demon_A/Demon_A_Attack01.png",
+        100,
+        100,
+        0,
+        7
+      ],
+      "death": [
+        "tiny/Demon_A/Demon_A_Death.png",
+        100,
+        100,
+        0,
+        4
+      ]
+    }
+  },
+  "spirit": {
+    "file": "tiny/Blood Monster_A/Blood Monster_A_Idle.png",
+    "cell": [
+      100,
+      100
+    ],
+    "states": {
+      "idle": [
+        0,
+        6
+      ]
+    },
+    "extra": {
+      "run": [
+        "tiny/Blood Monster_A/Blood Monster_A_Walk.png",
+        100,
+        100,
+        0,
+        8
+      ],
+      "attack": [
+        "tiny/Blood Monster_A/Blood Monster_A_Attack01.png",
+        100,
+        100,
+        0,
+        8
+      ],
+      "death": [
+        "tiny/Blood Monster_A/Blood Monster_A_Death.png",
+        100,
+        100,
+        0,
+        4
+      ]
+    }
+  },
+  "wizard": {
+    "file": "wizard/Idle.png",
+    "cell": [
+      250,
+      250
+    ],
+    "states": {
+      "idle": [
+        0,
+        8
+      ]
+    },
+    "extra": {
+      "run": [
+        "wizard/Run.png",
+        250,
+        250,
+        0,
+        8
+      ],
+      "attack": [
+        "wizard/Attack1.png",
+        250,
+        250,
+        0,
+        8
+      ],
+      "death": [
+        "wizard/Death.png",
+        250,
+        250,
+        0,
+        7
+      ]
+    }
+  },
+  "dark": {
+    "extra": {
+      "idle": [
+        "dark/Dark VFX 1/Dark VFX 1 (40x32).png",
+        40,
+        32,
+        0,
+        10
+      ],
+      "run": [
+        "dark/Dark VFX 1/Dark VFX 1 (40x32).png",
+        40,
+        32,
+        0,
+        10
+      ],
+      "attack": [
+        "dark/Dark VFX 2/Dark VFX 2 (48x64).png",
+        48,
+        64,
+        0,
+        16
+      ],
+      "emerge": [
+        "dark/Dark VFX 2/Dark VFX 2 (48x64).png",
+        48,
+        64,
+        0,
+        16
+      ]
+    }
+  },
+  "yelbegen_down": {
+    "sequences": {
+      "idle": [
+        "yelbegen/knight iso char_idle_0.png"
+      ],
+      "run": [
+        "yelbegen/knight iso char_run down_0.png",
+        "yelbegen/knight iso char_run down_1.png",
+        "yelbegen/knight iso char_run down_2.png",
+        "yelbegen/knight iso char_run down_3.png",
+        "yelbegen/knight iso char_run down_4.png"
+      ],
+      "attack": [
+        "yelbegen/knight iso char_slice down_0.png",
+        "yelbegen/knight iso char_slice down_1.png",
+        "yelbegen/knight iso char_slice down_2.png"
+      ]
+    }
+  },
+  "yelbegen_up": {
+    "sequences": {
+      "idle": [
+        "yelbegen/knight iso char_idle_3.png"
+      ],
+      "run": [
+        "yelbegen/knight iso char_run up_0.png",
+        "yelbegen/knight iso char_run up_1.png",
+        "yelbegen/knight iso char_run up_2.png",
+        "yelbegen/knight iso char_run up_3.png",
+        "yelbegen/knight iso char_run up_4.png"
+      ],
+      "attack": [
+        "yelbegen/knight iso char_slice up_0.png",
+        "yelbegen/knight iso char_slice up_1.png",
+        "yelbegen/knight iso char_slice up_2.png"
+      ]
+    }
+  },
+  "yelbegen_left": {
+    "sequences": {
+      "idle": [
+        "yelbegen/knight iso char_idle_1.png"
+      ],
+      "run": [
+        "yelbegen/knight iso char_run left_0.png",
+        "yelbegen/knight iso char_run left_1.png",
+        "yelbegen/knight iso char_run left_2.png",
+        "yelbegen/knight iso char_run left_3.png",
+        "yelbegen/knight iso char_run left_4.png",
+        "yelbegen/knight iso char_run left_5.png"
+      ],
+      "attack": [
+        "yelbegen/knight iso char_slice left_0.png",
+        "yelbegen/knight iso char_slice left_1.png",
+        "yelbegen/knight iso char_slice left_2.png"
+      ]
+    }
+  },
+  "yelbegen_right": {
+    "sequences": {
+      "idle": [
+        "yelbegen/knight iso char_idle_2.png"
+      ],
+      "run": [
+        "yelbegen/knight iso char_run right_0.png",
+        "yelbegen/knight iso char_run right_1.png",
+        "yelbegen/knight iso char_run right_2.png",
+        "yelbegen/knight iso char_run right_3.png",
+        "yelbegen/knight iso char_run right_4.png",
+        "yelbegen/knight iso char_run right_5.png"
+      ],
+      "attack": [
+        "yelbegen/knight iso char_slice right_0.png",
+        "yelbegen/knight iso char_slice right_1.png",
+        "yelbegen/knight iso char_slice right_2.png"
+      ]
+    }
+  },
+  "sorcerer": {
+    "sequences": {
+      "idle": [
+        "sorcerer/villain.png"
+      ],
+      "run": [
+        "sorcerer/villain.png"
+      ],
+      "attack": [
+        "sorcerer/sorcerer attack_Animation 1_0.png",
+        "sorcerer/sorcerer attack_Animation 1_1.png",
+        "sorcerer/sorcerer attack_Animation 1_2.png",
+        "sorcerer/sorcerer attack_Animation 1_3.png",
+        "sorcerer/sorcerer attack_Animation 1_4.png",
+        "sorcerer/sorcerer attack_Animation 1_5.png",
+        "sorcerer/sorcerer attack_Animation 1_6.png",
+        "sorcerer/sorcerer attack_Animation 1_7.png",
+        "sorcerer/sorcerer attack_Animation 1_8.png",
+        "sorcerer/sorcerer attack_Animation 1_9.png"
+      ]
+    }
+  }
+}
